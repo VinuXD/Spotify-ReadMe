@@ -1,3 +1,7 @@
+# Preview
+
+[![Spotify](https://spotifyxd.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/31a2knpxmuez2uo44wigmbqxjapy)
+
 # Spotify API
 
 * Create a [Spotify Application](https://developer.spotify.com/dashboard/applications)
@@ -113,7 +117,8 @@ You can customize the appearance of your `Card` however you wish with URL params
 - `border_color` - Card border color _(hex color)_ without `#`
 
 Use `/?background_color=8b0000&border_color=ffffff` parameter like so:  
-&nbsp; <br> [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)]()
+&nbsp; <br> [![​Spotify​](https://spotifyxd.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)]()
+
 
 ## Spotify Logo
 
