@@ -91,7 +91,7 @@ def getTemplate():
         templates = json.loads(file.read())
         return templates["templates"][templates["current-theme"]]
     except Exception as e:
-        print(f"Failed to load templates.")
+        print('Failed to load templates.')
         return FALLBACK_THEME
 
 
@@ -102,7 +102,7 @@ def loadImageB64(url):
 
 def makeSVG(data, background_color, border_color):
     barCount = 84
-    contentBar = "".join(["<div class='bar'></div>" for i in range(barCount)])
+    contentBar = "".join(["<div class='bar'></div>" for _ in range(barCount)])
     barCSS = barGen(barCount)
 
     if data == {} or data["item"] == "None" or data["item"] is None:
