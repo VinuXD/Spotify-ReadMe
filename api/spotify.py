@@ -107,14 +107,14 @@ def makeSVG(data, background_color, border_color):
 
     if data == {} or data["item"] == "None" or data["item"] is None:
         #contentBar = "" #Shows/Hides the EQ bar if no song is currently playing
-        currentStatus = "Recently Played:"
+        currentStatus = "Recently Played on Spotify:"
         recentPlays = recentlyPlayed()
         recentPlaysLength = len(recentPlays["items"])
         itemIndex = random.randint(0, recentPlaysLength - 1)
         item = recentPlays["items"][itemIndex]["track"]
     else:
         item = data["item"]
-        currentStatus = "Listening to:"
+        currentStatus = "Currently Vibing to:"
 
     if item["album"]["images"] == []:
         image = PLACEHOLDER_IMAGE
